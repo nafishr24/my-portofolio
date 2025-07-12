@@ -175,26 +175,6 @@ const HomeSection = () => {
           </div>
         </div>
       </div>
-
-      {/* Add these styles to your global CSS or Tailwind config */}
-      <style jsx global>{`
-        @keyframes fadeSlideUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        .animate-fade-slide-up {
-          animation: fadeSlideUp 0.6s ease-out forwards;
-        }
-        .opacity-0 {
-          opacity: 0;
-        }
-      `}</style>
     </section>
   );
 };
